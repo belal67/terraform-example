@@ -1,0 +1,10 @@
+version: 0.1             
+component: build
+timeoutInSeconds: 500
+shell: bash           
+
+steps:
+  - type: Command
+    name: "Build app"
+    command: |
+      echo "Hello from here"
