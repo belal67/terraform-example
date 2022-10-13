@@ -9,6 +9,6 @@ steps:
     command: |
       echo "Hello from here"
 outputArtifacts:
-  - name: node-app-deployment.yml
+  - name: nodedeployment.yml
     type: BINARY
-    location: node-app-deployment.yml:1
+    location: node-app-deployment.yml
